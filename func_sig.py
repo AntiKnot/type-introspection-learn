@@ -39,5 +39,5 @@ Reference
 
 BlackMatrix. (2018, January 16). 浅谈python函数签名.[Web log post]
 https://www.cnblogs.com. 
-Retrieved March 18, 2019 from https://www.cnblogs.com/blackmatrix/p/8299290.html.
+Retrieved March 18, 2019 from https://www.cnblogs.com/blackmatrix/p/8299290.html
 """
