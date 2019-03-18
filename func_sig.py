@@ -34,6 +34,11 @@ print(f'bound_args_02:{bound_args_02}')
 # bound_args_03 = sig.bind(1)
 # print(f'bound_args_03:{bound_args_03}')
 
+# 函数签名属于 python function的类型和属性。
+# 需要注意的是 在闭包环境下 作为wrapper的outer-function-signature 会覆盖 inner-function-signature。
+# 在closure中处理时如果想暴露出inner function signature，就需要手动覆盖，outer.signature = inner.signature。
+# 以上这个操作可以通过集成python wrapper 来实现暴露版本的装饰器。
+
 """
 Reference
 
